@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/MadCoderme/firstwebJSON#readme",
   "dependencies": {
-    "webjson": "^1.1.1"
+    "webjson": "1.1.1"
   }
 }
