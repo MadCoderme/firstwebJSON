@@ -1,0 +1,32 @@
+[
+    {
+        "type": "server",
+        "params": {
+            "method": "get",
+            "port": 4000,
+            "name": "First JSON Web App Ever"
+        }
+    },
+    {
+        "type": "page",
+        "title": "Home",
+        "child": [
+            {
+                "type": "text",
+                "value": "home page, huh?"
+            },
+            {
+                "type": "button",
+                "value": "About webJSON",
+                "onClick": "navigate('about')"
+            }
+        ]
+    },
+    {
+        "type": "page",
+        "title": "About",
+        "route": "about",
+        "routeParam": "id",
+        "childPath": "about.wjson"
+    }
+]

@@ -1,0 +1,11 @@
+[
+            {
+                "type": "text",
+                "value": "the url param &&id and here is the query param &id"
+            },
+            {
+                "type": "button",
+                "value": "Go Back to Home",
+                "onClick": "navigate('/')"
+            }
+]
